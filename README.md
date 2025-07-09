@@ -4,7 +4,6 @@ Este projeto é um clone responsivo da página de visualização de vídeos do Y
 Visão Geral do Projeto
 O projeto foca na criação de uma interface limpa e funcional, imitando os principais elementos da página de vídeo do YouTube, como o cabeçalho, o player de vídeo, as informações do vídeo (título, canal, ações) e a barra lateral de vídeos sugeridos.
 
-Screenshot / Pré-visualização
 Aqui está uma pré-visualização do projeto:
 
 ![Pré-visualização do Clone da Página do YouTube](./assets/scriem.png)
@@ -25,13 +24,11 @@ Para visualizar este projeto em seu navegador, siga estes passos simples:
 
 Clone o Repositório:
 
-git clone <URL_DO_SEU_REPOSITORIO>
-
-(Substitua <URL_DO_SEU_REPOSITORIO> pela URL real do seu repositório GitHub)
+git clone: https://github.com/AlbericoJr/Dio
 
 Navegue até a Pasta do Projeto:
 
-cd nome-da-pasta-do-seu-projeto
+cd https://github.com/AlbericoJr/Dio
 
 Abra o Arquivo HTML:
 Abra o arquivo index.html em seu navegador web preferido (Google Chrome, Firefox, Safari, etc.).
@@ -49,14 +46,5 @@ Telas Grandes (Desktops): Layout com player de vídeo à esquerda e barra latera
 Telas Médias (Tablets): O player de vídeo e a barra lateral se empilham verticalmente. O cabeçalho e os botões de ação do vídeo também se ajustam.
 
 Telas Pequenas (Smartphones): O layout é otimizado para visualização em dispositivos móveis, com elementos ajustados para melhor usabilidade.
-
-Personalização
-Imagens: Substitua as URLs dos placeholders (https://placehold.co/...) pelas suas próprias imagens (logo do YouTube, avatares, miniaturas de vídeo).
-
-Vídeo: Para um player de vídeo funcional, você pode incorporar um <iframe> do YouTube ou usar um elemento <video> com seus próprios arquivos de vídeo.
-
-Conteúdo: Altere os textos, títulos e descrições para o conteúdo desejado.
-
-Cores e Fontes: Modifique as variáveis de cor e as propriedades de fonte no arquivo style.css para combinar com sua preferência.
 
 Sinta-se à vontade para explorar, modificar e usar este código como base para seus próprios projetos!
