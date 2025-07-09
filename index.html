@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone da Página de Vídeo do YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones (você pode substituir por seus próprios ícones ou SVG) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <i class="fas fa-bars"></i>
+            <!-- Imagem do logo do YouTube -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png" alt="Logo do YouTube" class="youtube-logo">
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="Pesquisar">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="header-right">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-th"></i>
+            <i class="fas fa-bell"></i>
+            <!-- Imagem do avatar do usuário -->
+            <img src="./assets/perfil.jpg" alt="Avatar do Usuário" class="user-avatar">
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <div class="video-player">
+                <!-- Placeholder para o vídeo. Substitua por um iframe do YouTube real ou um elemento <video> -->
+                <div class="placeholder-video">
+                    <img src="https://placehold.co/1280x720/000000/FFFFFF?text=dio.me_" alt="Placeholder de Vídeo">
+                </div>
+            </div>
+
+            <div class="video-info">
+                <h1>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
+                <div class="video-meta">
+                    <div class="channel-details">
+                        <!-- Imagem do logo do canal -->
+                        <img src="./assets/Avatar.png" alt="Logo do Canal" class="channel-logo">
+                        <div class="channel-name-subscribers">
+                            <p class="channel-name">DIO</p>
+                            <p class="subscribers">83.3 mil inscritos</p>
+                        </div>
+                        <button class="subscribe-button">INSCREVA-SE</button>
+                    </div>
+                    <div class="video-actions">
+                        <button><i class="fas fa-thumbs-up"></i> 2 mil</button>
+                        <button><i class="fas fa-thumbs-down"></i> Não gostei</button>
+                        <button><i class="fas fa-share-alt"></i> Compartilhar</button>
+                        <button><i class="fas fa-download"></i> Download</button>
+                    </div>
+                </div>
+                <div class="video-description">
+                    <p class="views-date">28.418 visualizações Transmitido ao vivo em 23 de ago. de 2022</p>
+                    <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criamos uma uma landing page com a temática da série Stranger Things, a qual contará com um dark e light mode. Com um switcher (light e dark), para explorarmos os mistérios do mundo invertido.</p>
+                    <!-- Você pode adicionar mais texto de descrição aqui se necessário -->
+                </div>
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <!-- Vídeo sugerido 1 -->
+            <div class="suggested-video">
+                <img src="./assets/ciencia_de_dados.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">2.1 mil visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 2 -->
+            <div class="suggested-video">
+                <img src="./assets/scrum_talks.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Scrum Talks</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">1.6 mil visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 3 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 3 -->
+            <div class="suggested-video">
+                <img src="./assets/machine_learning.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Machine Learning Avançado - Fast Track</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">1.7 mil visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 4 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 4 -->
+            <div class="suggested-video">
+                <img src="./assets/global_skills.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Global Skills #2 - Project Planning</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">971 visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 5 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 5 -->
+            <div class="suggested-video">
+                <img src="./assets/python_zero.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Como aprender a programar PYTHON do ZERO</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">771 visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 6 -->
+            <div class="suggested-video">
+                <img src="./assets/ciencia_de_dados.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">2.1 mil visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 7 -->
+            <div class="suggested-video">
+                <img src="./assets/scrum_talks.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Scrum Talks</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">1.6 mil visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 3 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 8 -->
+            <div class="suggested-video">
+                <img src="./assets/machine_learning.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Machine Learning Avançado - Fast Track</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">1.7 mil visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 4 dias</p>
+                </div>
+            </div>
+            <!-- Vídeo sugerido 9 -->
+            <div class="suggested-video">
+                <img src="./assets/global_skills.png" alt="Miniatura de Vídeo Sugerido">
+                <div class="suggested-video-info">
+                    <p class="suggested-video-title">Global Skills #2 - Project Planning</p>
+                    <p class="suggested-video-channel">DigitalInnovationOne</p>
+                    <p class="suggested-video-views">971 visualizações</p>
+                    <p class="suggested-video-time">Transmitido há 5 dias</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
